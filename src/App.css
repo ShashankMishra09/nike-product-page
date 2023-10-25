@@ -1,0 +1,106 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.logo{
+  margin-left: 100px;  
+}
+
+.logo img{
+  height: 100px;
+}
+
+.navigate{
+  display: flex;
+  gap: 2.5rem;
+}
+
+.navigate li{
+  list-style: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.nav button{
+  padding: 0.7rem 2rem;
+  margin-right: 50px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.middleman{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto 150px;
+}
+
+.elem{
+  margin-left: 350px;
+  margin-top: 200px;
+  text-transform: uppercase;
+}
+.elem h1{
+  font-size: 6rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.hero img{
+  height: 650px;
+  filter: drop-shadow(30px 10px 14px #a4a4c4);
+  margin-top: -100px;
+}
+
+.buy{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 470px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.buy .shop{
+  padding: 10px;
+}
+
+.buy .shop button{
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  padding: .8rem 1.5rem;
+}
+
+
+.buy .shop button:nth-child(1){
+   margin-right: 15px;
+ 
+}
+
+
+.place p{
+  padding-bottom: 5px;
+  margin-left: 7px;
+  text-transform: uppercase;
+}
+
+.place img{
+  height: 30px;
+  cursor: pointer;
+  margin-left: 7px;
+
+}
